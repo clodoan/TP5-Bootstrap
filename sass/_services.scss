@@ -1,3 +1,11 @@
 .services {
   padding-top: 80px;
+  min-height: 700px;
+
+  p {
+    font-family: serif;
+    color: $gris;
+    font-size: 14px;
+  }
+
 }

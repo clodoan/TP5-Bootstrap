@@ -7,11 +7,12 @@ h2 {
   font-size: 35px;
   text-transform: uppercase;
   font-weight: 700;
+  line-height: 60px;
 }
 
 h4 {
   font-family: "Droid Serif", sans-serif;
   font-weight: lighter;
   font-style: italic;
-  color: grey;
+  color: $gris;
 }
