@@ -1,0 +1,65 @@
+* {
+  font-family: "montserrat", sans-serif; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+h4 {
+  font-family: "Droid Serif", sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  color: grey; }
+
+.nav-custom a {
+  text-decoration: none;
+  color: white; }
+
+.jumbotroncito {
+  text-align: center;
+  background: none;
+  padding-top: 200px; }
+
+.main {
+  min-height: 800px;
+  background: url("../images/header.jpg");
+  background-size: cover; }
+  .main h1 {
+    color: white; }
+  .main h3 {
+    color: white;
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+    font-size: 30px; }
+
+.button-agency {
+  background: #FEC503;
+  border: none;
+  border-radius: 2px;
+  height: 60px;
+  padding: 19px 30px 19px 30px;
+  font-weight: bold; }
+
+#main-button {
+  margin-top: 80px; }
+
+.services {
+  text-align: center;
+  height: 600px; }
+
+.titulo {
+  margin: 80px; }
+
+.portfolio {
+  text-align: center;
+  background: lightgrey;
+  padding: 80px;
+  height: 600px;
+  margin-bottom: 50px; }
+
+.services {
+  padding-top: 80px; }
+
+/*# sourceMappingURL=style.css.map */

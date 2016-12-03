@@ -1,0 +1,48 @@
+.nav-custom a {
+  text-decoration: none;
+  color: white;
+}
+.jumbotroncito {
+  text-align: center;
+  background: none;
+  padding-top: 200px;
+}
+
+.main {
+  min-height: 800px;
+  background: url("../images/header.jpg");
+  background-size: cover;
+
+  h1 {
+    color: white;
+  }
+
+  h3 {
+    color: white;
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+    font-size: 30px;
+  }
+}
+
+.button-agency {
+  background: $amarillo;
+  border: none;
+  border-radius: 2px;
+  height: 60px;
+  padding: 19px 30px 19px 30px;
+  font-weight: bold;
+}
+
+#main-button {
+  margin-top: 80px;
+}
+
+.services {
+  text-align: center;
+  height: 600px;
+}
+
+.titulo {
+  margin: 80px;
+}
