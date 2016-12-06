@@ -1,8 +1,43 @@
+@charset "UTF-8";
 .about {
   padding-top: 80px;
   text-align: center;
   min-height: 1200px;
   margin-bottom: 50px; }
+
+.about .row {
+  display: flex;
+  align-items: center;
+  margin-top: 100px; }
+
+.row.first {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px; }
+
+.izquierda p {
+  text-align: right;
+  margin: 0; }
+
+.derecha p {
+  text-align: left;
+  margin: 0; }
+
+.about-image-container {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .about-image-container img {
+    position: relative;
+    z-index: 2; }
+
+.about-image-container::after  {
+  content: "";
+  height: 150px;
+  width: 5px;
+  background: red;
+  position: absolute;
+  top: 0;
+  z-index: 1; }
 
 * {
   font-family: "montserrat", sans-serif; }
