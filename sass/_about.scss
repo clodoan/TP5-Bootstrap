@@ -28,22 +28,25 @@
   }
 }
 
-.about-image-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.contenido {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
 
   img {
     position: relative;
     z-index: 2;
   }
-}
 
-.about-image-container::after {
+  &:after {
     content: "";
-    height: 150px;
-    width: 5px;
+    height: 110px;
+    width: 2px;
     background: red;
+    left: 50%;
+    margin-left: -1px;
     position: absolute;
     top: 0;
     z-index: 1;
-  }
+    }
+}

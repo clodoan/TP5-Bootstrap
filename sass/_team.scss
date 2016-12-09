@@ -1,0 +1,22 @@
+.perfil {
+  text-align: center;
+
+  h3 {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  h4 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: normal;
+  }
+}
+
+.team-perfil-redes {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 40px 0px 40px;
+  margin-top: 20px;
+}

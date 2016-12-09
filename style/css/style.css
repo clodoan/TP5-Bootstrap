@@ -23,21 +23,23 @@
   text-align: left;
   margin: 0; }
 
-.about-image-container {
-  padding-top: 20px;
-  padding-bottom: 20px; }
-  .about-image-container img {
+.contenido {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative; }
+  .contenido img {
     position: relative;
     z-index: 2; }
-
-.about-image-container::after  {
-  content: "";
-  height: 150px;
-  width: 5px;
-  background: red;
-  position: absolute;
-  top: 0;
-  z-index: 1; }
+  .contenido:after  {
+    content: "";
+    height: 110px;
+    width: 2px;
+    background: red;
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    z-index: 1; }
 
 * {
   font-family: "montserrat", sans-serif; }
@@ -131,7 +133,8 @@ h4 {
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s linear; }
-  .image-container:hover .overlay {
+  .image-container:hover
+  .overlay {
     opacity: 1; }
 
 .description {
@@ -152,5 +155,22 @@ h4 {
     font-family: serif;
     color: #777;
     font-size: 14px; }
+
+.perfil {
+  text-align: center; }
+  .perfil h3 {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600; }
+  .perfil h4 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: normal; }
+
+.team-perfil-redes {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 40px 0px 40px;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */

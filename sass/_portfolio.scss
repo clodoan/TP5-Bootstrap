@@ -21,6 +21,8 @@
 
 .image-container {
   position: relative;
+  // para poderle enganchar algo a este tengo que posicionarlo de alguna forma
+  // si no el position absolute del hijo se va con el primero que esté explícitamente posicionado hacia arriba
   cursor: pointer;
 
   img {
@@ -31,6 +33,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    // esto lo hace para engancharlo del padre
     top: 0;
     left: 0;
     background: rgba(254, 209, 54, 0.5);
@@ -40,13 +43,18 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    // en estado normal está con opacity 0 y le aplica una transición a este elemento
+    // para que el efecto sea cuando entra y cuando sale el cursor.
     opacity: 0;
     transition: opacity 0.3s linear;
   }
 
-  &:hover .overlay{
-    opacity:1;
-  }
+  &:hover
+  // cuando le hago hover al image-container, hago que la opacity del overlay sea 1 pero como
+  // overlay tiene intrínseca una transición, va a tardar en hacerlo.
+    .overlay {
+      opacity:1;
+    }
 }
 
 .description {
